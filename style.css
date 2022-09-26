@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', 'sans-serif';
+    width: 100%;
+    height: 100vh;
+    background: #121213;
+    display: grid;
+    place-items: center;
+}
+header{
+    width: 85%;
+    height: 95%;
+    border: 1px solid #fff;
+    display: flex;
+}
+header .menu_side, 
+.song_side{
+    width: 25%;
+    height: 90%;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+header .song_side{
+    width: 75%;
+    background-color: #000;
+}
